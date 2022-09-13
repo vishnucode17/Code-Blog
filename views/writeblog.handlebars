@@ -1,0 +1,23 @@
+<title>Write New Blog</title>
+<div class="container">
+    <form action="/createblog" method="post">
+    <h1 style="text-align: center;margin:20px">Write a New Blog</h1>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder="Blog Tilte" name="btitle">
+        <label for="floatingInput">Blog Title</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder="Image Address" name="bimg">
+        <label for="floatingInput" name="bimg">Image URL</label>
+    </div>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100vh" name="bdesc"></textarea>
+        <label for="floatingTextarea2">Start Writing</label>
+    </div>
+    <br>
+    <div class="btn">
+        <button class="btn btn-success">Submit</button>
+    </div>
+    </form>
+</div>
